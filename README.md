@@ -1,2 +1,2 @@
-# test-app
+# web application test
 testing a web application
