@@ -1,2 +1,2 @@
 # web application test
-testing a web application
+just testing out a web app
