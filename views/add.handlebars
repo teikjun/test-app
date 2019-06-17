@@ -1,0 +1,29 @@
+  <section id="add" class="container">
+    <div class="form-wrap">
+      <h1>Add an Idea</h1>  
+      {{#each errors}}
+        <div class="error">
+          <p>{{text}}</p>
+        </div>
+      {{/each}}
+      <form action="/ideas/add" method="POST">
+        <div class="input-group">
+          <label for="title">Idea Title</label>
+          <input type="text" name="title" id="title" class="input-box" placeholder="Title or tagline for your project idea"
+            maxlength="100" value={{title}}>
+        </div>
+        <div class="input-group">
+          <label for="technologies">Technologies Needed</label>
+          <input type="text" name="technologies" id="technologies" class="input-box" placeholder="Technologies involved in your idea eg. java, react"
+          maxlength="100" value={{technologies}}>
+        </div>
+        <div class="input-group">
+          <label for="description">Idea Description</label>
+          <textarea name="description" id="description" class="input-box" placeholder="Describe the details of the idea"
+            rows="10">{{description}}</textarea>
+        </div>
+        <input type="submit" value="Add Idea!" class="btn btn-reverse">
+      </form>
+    </div>
+  </section>
+  

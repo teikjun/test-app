@@ -1,0 +1,17 @@
+  <section id="gigs" class="container">
+    <h1>All Ideas</h1>
+    
+    {{#each ideas}}
+    <div class="gig">
+      <h3>{{title}}</h3>
+      <p>{{description}}</p>
+      <div class="tech">
+        <small>Technologies Involved: <span>{{technologies}}</span></small>
+      </div>
+    </div>
+    {{else}}
+        <p>No ideas available</p>
+    {{/each}}     
+    
+
+  </section>
