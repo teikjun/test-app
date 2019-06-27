@@ -1,7 +1,7 @@
 {
   "name": "watertest",
   "version": "1.0.0",
-  "description": "app that helps users crowdsource feedback for project idea",
+  "description": "app that helps students crowdsource user response and feedback for project idea",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
