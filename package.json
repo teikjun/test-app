@@ -1,5 +1,5 @@
 {
-  "name": "watertest",
+  "name": "watertester",
   "version": "1.0.0",
   "description": "web app that helps to crowdsource user response and feedback for a project idea",
   "main": "app.js",
