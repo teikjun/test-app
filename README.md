@@ -1,2 +1,3 @@
 # web application test
-just testing out a web app
+testing out a web app, using postgres and sequelize
+
